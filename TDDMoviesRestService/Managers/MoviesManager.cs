@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Intrinsics;
 using System.Threading.Tasks;
 using Microsoft.VisualBasic;
 
@@ -8,15 +9,12 @@ namespace TDDMoviesRestService.Managers
 {
     public class MoviesManager
     {
-        public static List<Movie> movies = new List<Movie>()
+        public List<Movie> movies = new List<Movie>()
         {
-            new Movie("Dune", "R.12", "120", new DateTime(2021, 11, 12)),
-            new Movie("While You Were Sleeping", "R.20", "120", new DateTime(2021, 11, 12)),
-            new Movie("Halloween", "R.05", "120", new DateTime(2021, 10, 13))
 
         };
 
-
+        
         public List<Movie> GetMovies()
         {
             return movies;
