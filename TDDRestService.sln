@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDRestService", "TDDRestService\TDDRestService.csproj", "{F695C05D-8163-460F-969D-37B782832F21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TDDMoviesRestService", "TDDMoviesRestService\TDDMoviesRestService.csproj", "{4EF5DEB9-A93E-4AEF-B0C0-9986B1E49D17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F695C05D-8163-460F-969D-37B782832F21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F695C05D-8163-460F-969D-37B782832F21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F695C05D-8163-460F-969D-37B782832F21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F695C05D-8163-460F-969D-37B782832F21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF5DEB9-A93E-4AEF-B0C0-9986B1E49D17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF5DEB9-A93E-4AEF-B0C0-9986B1E49D17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF5DEB9-A93E-4AEF-B0C0-9986B1E49D17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF5DEB9-A93E-4AEF-B0C0-9986B1E49D17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D19A9222-2A70-4BC3-820D-E4F216334043}
+	EndGlobalSection
+EndGlobal
